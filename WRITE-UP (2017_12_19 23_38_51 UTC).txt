@@ -1,0 +1,43 @@
+                                          LAB 1 - A Thesaurus Client & Server
+
+Name: Yash Bhushan Ambre
+Student_ID:1001535797
+Login_ID: ya5797
+
+Project Description:
+The following project is used to receive a string of synonyms from the server, when a client requests a synonym for a specific word.
+The code is written in python which  makes use of tcp,easygui,sockets files.The output of the program which shows the synonym of the 
+word is displayed with the help of a popup.
+
+Folder Contents:
+Server.py
+Client.py
+easygui
+Writeup
+
+Package required:
+
+Easygui:-
+Installation Steps:
+1.Copy the contents from the easygui folder to the directory same as python
+2.Open Command Prompt
+3.Change Directory to where the easygui files are copied
+4.To install type "python.exe setup.py install"
+5.Done
+
+Project Implementation:
+1.The server and client file can be executed with the help of Command prompt or Eclipse.
+2.Copy the Server.py and Client.py files to desktop
+3.Open Command prompt and run the server.py file-"python Server.py" and enter the following words:
+( Come, Go, Run, Hurry, Hide, Move, Destroy, Kill, Decide, Help)
+4.Open a new Command prompt and run the Client.py file-"python Client.py"
+5.Popup is displayed requesting the word for which the Synonym is needed.
+(BUG:After entering the word the popup may get pinned to the taskbar,continue by just clicking on it)
+6.The next popup displays that the word is received to the server, press 'ok' and proceed
+7.The next popup shows the desired string of the synonyms.
+8.Run the client again in order to check that the connection is still maintained.
+
+References:
+1.(https://wiki.python.org/moin/TcpCommunication)
+2.http://easygui.sourceforge.net/tutorial.html
+3.Stackoverflow.com
